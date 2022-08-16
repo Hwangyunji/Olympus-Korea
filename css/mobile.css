@@ -84,8 +84,10 @@
     padding: 20px;
 }
 
-#gnb .depth1 p {
+#gnb p {
+    font-weight: 700;
     font-size: 20px;
+    padding: 20px;
     text-decoration: 3px solid var(--main-color2) underline;
 }
 
@@ -130,7 +132,9 @@
     width: 170px;
 }
 
-
+#gnb .title-menu .bi {
+    outline: 1px solid red;
+}
 
 .category {
     background: var(--sub-color2);
