@@ -1,0 +1,128 @@
+/* intro */
+
+#b_main-visual .container {
+  height: 327px;
+  width: 100%;
+  border-radius: 0px;
+  background-image: url(../images/intro/banner.png);
+  background-repeat: no-repeat;
+}
+
+#b_main-visual img {
+  height: 327px;
+  width: 1440px;
+}
+#b_main-visual h2 {
+  font-family: "Noto Sans KR";
+  letter-spacing: 0.5em;
+  font-size: 50px;
+  line-height: 72px;
+  color: #ffffff;
+  text-align: center;
+  left: 520px;
+  padding-top: 127px;
+  border-radius: nullpx;
+}
+.b {
+  font-size: 40px;
+  text-align: center;
+  line-height: 58px;
+  line-height: 100%;
+  font-weight: 500;
+  height: 116px;
+  left: 184px;
+  padding-top: 130px;
+  border-radius: nullpx;
+}
+#b_intro{
+  padding-bottom: 550px;
+}
+#b_intro .b_container {
+  width: 1380px;
+  height: 1941px;
+}
+#b_intro .b_row {
+  width: 100%;
+  height: 100vh;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+#b_intro .b_col {
+  padding-bottom: 130px;
+  overflow: hidden;
+}
+
+.b_col img {
+  height: 547px;
+  width: 665px;
+  left: 30px;
+  top: 793px;
+  overflow: hidden;
+}
+.b_col:first-child img {
+  float: left;
+  margin-top: 150px;
+}
+.b_col:first-child h4 {
+  justify-content: right;
+  font-weight: bold;
+  font-size: 100px;
+  color: #d1d1d1;
+  text-align: right;
+  line-height: 145px;
+  padding-right: 50px;
+}
+.b_col:first-child p {
+  float: right;
+  /* line-height: 35px; */
+  font-size: 24px;
+  width: 665px;
+  padding-top: 40px;
+  padding-right: 50px;
+  /* background:yellow; */
+}
+.b_col:last-child img {
+  float: left;
+  margin-bottom: 150px;
+  display:flex;
+}
+.b_col:last-child h4 {
+  float: right;
+  font-weight: bold;
+  font-size: 100px;
+  color: #d1d1d1;
+  text-align: right;
+  line-height: 145px;
+  line-height: 100%;
+  height: 235px;
+  padding-right: 50px;
+}
+
+.b_col:last-child p {
+  float: right;
+  font-size: 24px;
+  width: 665px;
+  padding-top: 70px;
+  padding-right: 50px;
+}
+.b_col:nth-child(2) img {
+  float: right;
+  margin-top: 150px;
+}
+.b_col:nth-child(2) h4 {
+  font-weight: bold;
+  font-size: 100px;
+  color: #d1d1d1;
+  text-align: right;
+  line-height: 145px;
+  line-height: 100%;
+  float: left;
+}
+.b_col:nth-child(2) p {
+  font-size: 24px;
+  width: 665px;
+  height: 235px;
+  padding-top: 70px;
+  float: left;
+}
