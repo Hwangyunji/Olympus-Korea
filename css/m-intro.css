@@ -2,15 +2,15 @@
 #b_main-visual{
   padding-top: 60px;
 }
-#b_main-visual .container{
-  background-image: url(/images/intro/banner.png);
+#b_main-visual{
+  background-image: url(../images/intro/banner.png);
   width: 100%;
   height: 150px;
   /* position: relative; */
   background-repeat: no-repeat;
   padding-top: 60px;
   color: #ffffff;
-  font-family: Noto Sans KR;
+  font-family: 'Noto Sans KR';
   font-size: 30px;
   font-weight: 700;
   line-height: 43px;

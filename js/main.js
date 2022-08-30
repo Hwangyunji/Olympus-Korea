@@ -5,7 +5,7 @@ function checkDevice() {
   console.log(w);
 
   if (w >= breakPoint) {
-    console.log("큰화면 코드");
+    // console.log("큰화면 코드");
     $("#gnb .depth1 > li").hover(
       // mouseover
       function () {
@@ -18,7 +18,7 @@ function checkDevice() {
       }
     );
   } else {
-    console.log("작은화면 코드");
+    // console.log("작은화면 코드");
     $("nav .depth1 > li").click(function () {
       $(this).children(".depth2").toggleClass("on");
     });
